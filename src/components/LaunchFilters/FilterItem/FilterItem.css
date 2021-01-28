@@ -1,0 +1,23 @@
+.filter-item {
+  background: #cbe6b2;
+  color: #111111;
+  border-radius: 10px;
+  font-family: inherit;
+  padding: 4px 25px 8px 25px;
+  font-size: 24px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.filter-item.active {
+  background-color: #40b002;
+}
+
+@media screen and (min-width: 701px) {
+  .filter-item {
+    padding: 2px 20px 6px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+}
