@@ -56,15 +56,15 @@ Unit test cases are writen by using following libraries:
 
 ## App features
 
-- This is a progressive web application, which can be installed on any PWA compatible mobile device.
-- Application is server-side rendered, which helps in boosting the initial page load time and increasing the SEO scores.
+- Progressive web application, can be installed on any PWA compatible mobile device.
+- Used best practises and performation optimizations, resulting in a high lighthouse score and increasing the SEO scores.
 - Fully responsive to covers all range of device
 - Uses `container component - dummy component` approach
 - Multiple highly reusable dummy components result in easier unit testing
 - Uses lazy loading to defer loading off-screen images which results in reduced initial page load time
 - Uses infinite scrolling approach to render the launch list in multiple steps, resulting in reduced dom elements on initial page load
 - Uses memoizing to prevent unnecessary rerenders, increasing the performance of functional components
-- Used best practises and performation optimizations, resulting in a high lighthouse score
+
 
 ## Installation
 
